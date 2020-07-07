@@ -2,7 +2,7 @@
 title: "New blog post using only an iPhone!"
 category: "blog"
 tags: ["emacs", "doom-emacs", "editors"]
-cover: adding-keybinding-to-doom-emacs-8172.png
+cover: iphone-only-git-workflow-blog-posts-7351.png
 author: Rameez Khan
 ---
 

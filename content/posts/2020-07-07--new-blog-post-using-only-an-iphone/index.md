@@ -25,7 +25,7 @@ In Working Copy I linked GitHub account and cloned my  blog repo. My blog is wri
 
 Next I opened up Canva and created an empty template of 1500px150px (by post banner) and created a quick banner. If you've never used Canva before, they have some very cool stock photos and templates. 
 
-![Canva][image-1]
+![Canva](canva-screenshot.png)
 
 That's it for now.
 
@@ -34,5 +34,3 @@ Peace ✌🏽
 [1]:	https://apps.apple.com/za/app/working-copy-git-client/id896694807
 [2]:	https://apps.apple.com/za/app/textastic-code-editor-9/id1049254261
 [3]:	https://apps.apple.com/za/app/canva-card-poster-logo-maker/id897446215
-
-[image-1]:	canva-screenshot.png

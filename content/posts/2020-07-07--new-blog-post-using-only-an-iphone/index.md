@@ -35,7 +35,7 @@ Now one thing I was missing from this workflow was the ability to do a `yarn dev
 
 But how can I create a PR from my iPhone? Again Working Copy to the rescue! First I created a branch, committed my changes and pushed them. Then under `Branches > Show all branches` I clicked the “pr” button and then clicked the branch I wanted to merge my changes into. Working Copy shows your a nice diff view and you can add a title and description for your PR as you normally would! 
 
-![][6]
+![Creating a PR in Working Copy](working-copy-pr.jpeg)
 
 After creating the PR I opened up the official GitHub app and viewed my open PR. Clicking on “checks” show the following. As you can see Netlify deployed a preview version of my blog. Clicking that check will open it up in your browser. Now I can preview my changes without exposing the world to the dodgy spelling and grammar of my first draft!
 

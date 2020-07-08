@@ -32,7 +32,7 @@ Then in the **Files** app I enabled **Working Copy** as a location. Next, in Tex
 
 Next I started writing this blog post. Text was easy enough. For images I first took the screenshots I wanted and saved them to my Photos. Then in **Working Copy**, under the correct directory I clicked the “plus” icon on the top right and imported the images. Then it's a simple matter of renaming them properly and referencing them as you normally would in a Markdown file. 
 
-Now one thing I was missing from this workflow was the ability to do a `yarn develop` to preview my post locally. However, I use Netlify to deploy and host my blog and I make use their [Deploy Previews][6] feature. Essentially whenever I open up a PR on GitHub, Netlify automatically builds and deploy a _preview_ of that branch. 
+Now one thing I was missing from this workflow was the ability to do a `yarn develop` to preview my post locally. However, I use Netlify to deploy and host my blog and I make use their [Deploy Previews][6] feature. Essentially whenever I open up a PR on GitHub, Netlify automatically builds and deploys a _preview_ of that branch. 
 
 But how can I create a PR from my iPhone? Again **Working Copy** to the rescue! First I created a branch, committed my changes and pushed them. Then under `Branches > Show all branches` I clicked the “pr” button and then clicked the branch I wanted to merge my changes into. **Working Copy** shows you a nice diff view and you can add a title and description for your PR as you normally would! 
 
@@ -40,7 +40,7 @@ But how can I create a PR from my iPhone? Again **Working Copy** to the rescue! 
 
 After creating the PR I opened up the official **GitHub** app and viewed my open PR. Clicking on “checks” showed the following. 
 
-![Checks in GitHub](github-checks-jpeg)
+![Checks in GitHub](github-checks.jpeg)
 
 As you can see Netlify deployed a preview version of my blog. Clicking that check will open it up in your browser. Now I can preview my changes without exposing the world to the dodgy spelling and grammar of my first draft!
 

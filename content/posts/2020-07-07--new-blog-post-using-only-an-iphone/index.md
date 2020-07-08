@@ -26,7 +26,7 @@ In **Working Copy** I linked my GitHub account and cloned my blog repo. My blog 
 
 Next I opened up **Canva** and created an empty template of 1500px850px (my post banner) and created a quick banner. If you've never used **Canva** before, they have some very cool stock photos and templates. 
 
-![Canva][image-1]
+![Canva](canva-design.jpeg)
 
 Then in the **Files** app I enabled **Working Copy** as a location. Next, in Textastic I added an `External Folder` and chose my blog repo. Great! Now I can edit files directly in **Textastic** and the changes will reflect in **Working Copy**! Nifty. 
 
@@ -36,11 +36,11 @@ Now one thing I was missing from this workflow was the ability to do a `yarn dev
 
 But how can I create a PR from my iPhone? Again **Working Copy** to the rescue! First I created a branch, committed my changes and pushed them. Then under `Branches > Show all branches` I clicked the “pr” button and then clicked the branch I wanted to merge my changes into. **Working Copy** shows you a nice diff view and you can add a title and description for your PR as you normally would! 
 
-![Creating a PR in Working Copy][image-2]
+![Creating a PR in Working Copy](working-copy-pr.jpeg)
 
 After creating the PR I opened up the official **GitHub** app and viewed my open PR. Clicking on “checks” showed the following. 
 
-![Checks in GitHub][image-3]
+![Checks in GitHub](github-checks-jpeg)
 
 As you can see Netlify deployed a preview version of my blog. Clicking that check will open it up in your browser. Now I can preview my changes without exposing the world to the dodgy spelling and grammar of my first draft!
 
@@ -75,7 +75,3 @@ Peace ✌🏽
 [6]:	https://docs.netlify.com/site-deploys/overview/#deploy-preview-controls
 [7]:	https://apps.apple.com/za/app/ulysses/id1225571038
 [8]:	https://apps.apple.com/za/app/blink-shell-mosh-ssh-client/id1156707581
-
-[image-1]:	canva-design.jpeg
-[image-2]:	working-copy-pr.jpeg
-[image-3]:	github-checks-jpeg

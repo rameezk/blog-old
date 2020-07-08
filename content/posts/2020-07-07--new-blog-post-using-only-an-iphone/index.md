@@ -6,7 +6,7 @@ cover: iphone-only-git-workflow-blog-posts-7351.png
 author: Rameez Khan
 ---
 
-![](iphone-only-git-workflow-blog-posts-7351.png)
+![Banner](iphone-only-git-workflow-blog-posts-7351.png)
 
 We are truly living in the future folks!
 

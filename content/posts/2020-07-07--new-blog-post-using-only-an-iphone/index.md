@@ -16,8 +16,8 @@ So without further ado, this is how I managed to write and deploy this post usin
 
 # Apps Used
 - [Working Copy][1] - Git client
-- [Textastic][2]- Text editor with syntax highlighting 
-- [Canva][3]- Image editing and templating
+- [Textastic][2] - Text editor with syntax highlighting 
+- [Canva][3] - Image editing and templating
 - [GitHub][4] - Official GitHub app for viewing PRs
 
 # Workflow
@@ -40,7 +40,7 @@ But how can I create a PR from my iPhone? Again **Working Copy** to the rescue! 
 
 After creating the PR I opened up the official **GitHub** app and viewed my open PR. Clicking on “checks” showed the following. 
 
-![Checks in GitHub](github-checks.jpeg)
+![Checks in GitHub][image-3]
 
 As you can see Netlify deployed a preview version of my blog. Clicking that check will open it up in your browser. Now I can preview my changes without exposing the world to the dodgy spelling and grammar of my first draft!
 
@@ -52,14 +52,14 @@ Once I was happy I merged the PR into master. Now of course, Netlify will deploy
 
 The workflow worked pretty well overall but there are some things I would like to improve. 
 
-- Textastic doesn't have a spell check. It's tough to do any kind of writing without this. I want to check out any of the Markdown editors on the AppStore. [Ulysses][8] looks good!
+- Textastic doesn't have a spell check. It's tough to do any kind of writing without this. I want to check out any of the Markdown editors on the AppStore. [Ulysses][7] looks good!
 - I wish there was a cleaner way to reference images in the Markdown file. Right now I have to import the images into Working Copy, rename them, copy the path and paste them into the Markdown file.
 
 # Conclusion
 
 Overall, I'm happy with this type of workflow for small/quick editing. Obviously this doesn't beat a fully fledged development environment. And I miss Vim/Emacs! 
 
-I would imagine this type of workflow can be extended to iPadOS. It could probably be improved significantly paired with the keyboard/touchbar case. I could try deploy a VM somewhere (a Digital Ocean droplet perhaps) with all my tooling installed (vim/emacs/tmux etc) and have a nice Mosh session going from a terminal client ([Blink Shell][9] looks good for this).
+I would imagine this type of workflow can be extended to iPadOS. It could probably be improved significantly paired with the keyboard/touchbar case. I could try deploy a VM somewhere (a Digital Ocean droplet perhaps) with all my tooling installed (vim/emacs/tmux etc) and have a nice Mosh session going from a terminal client ([Blink Shell][8] looks good for this).
 
 Do you have a better workflow? Do something similar for on-the-go editing? Let me know in the comments!
 
@@ -73,8 +73,9 @@ Peace ✌🏽
 [4]:	https://apps.apple.com/za/app/github/id1477376905
 [5]:	https://www.gatsbyjs.org/packages/gatsby-transformer-remark/
 [6]:	https://docs.netlify.com/site-deploys/overview/#deploy-preview-controls
-[8]:	https://apps.apple.com/za/app/ulysses/id1225571038
-[9]:	https://apps.apple.com/za/app/blink-shell-mosh-ssh-client/id1156707581
+[7]:	https://apps.apple.com/za/app/ulysses/id1225571038
+[8]:	https://apps.apple.com/za/app/blink-shell-mosh-ssh-client/id1156707581
 
 [image-1]:	canva-design.jpeg
 [image-2]:	working-copy-pr.jpeg
+[image-3]:	github-checks-jpeg

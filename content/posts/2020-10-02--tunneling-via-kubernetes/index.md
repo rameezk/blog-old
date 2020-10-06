@@ -26,13 +26,15 @@ Next, ensure your pod is running. I have a handy alias for this.
 alias kdebug='kubectl exec -it debuggery -- zsh || kubectl run --rm -it debuggery --image=rameezk/debuggery --restart=Never'
 ```
 
-In other terminal window, run the following:
+In another terminal window, run the following:
 
 ```bash
 tcpserver 127.0.0.1 "$local_port" kubectl exec -i debuggery -- nc "$remote_host" "$remote_port"
 ```
 
 Where `$local_port` is the local port you would access the service on (i.e. `127.0.0.1:$local_port`). Similarly `$remote_host` and `$remote_port` are the remote host and port respectively. The host, for example, will be the DB host address.
+
+If all goes well, you won't see any output, but the TCP tunnel should have been established.
 
 You can make this a script as well and add to it to your .zshrc or .bashrc. You can see mine [here](https://github.com/rameezk/dotfiles/blob/master/system/function.zsh#L78-L118).
 

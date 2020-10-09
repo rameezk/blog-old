@@ -12,8 +12,13 @@ const Seo = props => {
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
-  const image = postCover ? postCover : config.siteImage;
   const url = config.siteUrl + config.pathPrefix + postSlug;
+
+  let image = config.siteImage;
+
+  if (!!postCover) {
+    image = config.siteUrl + postCover.childImageSharp.resize.src;
+  }
 
   return (
     <Helmet
@@ -34,6 +39,7 @@ const Seo = props => {
       <meta property="fb:app_id" content={facebook.appId} />
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary" />
+      <meta property="twitter:image" content={image} />
       <meta
         name="twitter:creator"
         content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}

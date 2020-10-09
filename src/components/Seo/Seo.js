@@ -20,10 +20,6 @@ const Seo = props => {
     image = config.siteUrl + postCover.childImageSharp.resize.src;
   }
 
-  console.log("postCover", postCover)
-  console.log("image", image)
-  console.log("url", url)
-
   return (
     <Helmet
       htmlAttributes={{

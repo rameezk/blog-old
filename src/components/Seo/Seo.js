@@ -34,6 +34,7 @@ const Seo = props => {
       <meta property="fb:app_id" content={facebook.appId} />
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary" />
+      <meta property="twitter:image" content={image} />
       <meta
         name="twitter:creator"
         content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}

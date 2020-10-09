@@ -3,7 +3,7 @@ module.exports = {
   shortSiteTitle: "Rameez Khan", // <title> ending for posts and pages
   siteDescription: "Rameez Khan",
   siteUrl: "https://rameezkhan.me",
-  // pathPrefix: "",
+  pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 

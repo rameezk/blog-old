@@ -3,6 +3,8 @@ title: /uses
 menuTitle: /uses
 ---
 
+> "Behold! My stuff."
+
 For more comprehensive lists of people who are far more important and influential than me, check out [uses.tech](https://uses.tech).
 
 But, if you're curious, this is a list of tools (and stuff) that make me happy and keep me productive.

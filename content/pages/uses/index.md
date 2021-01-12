@@ -30,7 +30,7 @@ I'll try keep it as up to date as I can.
 - These notes sometimes expand to more in-depth notes which I keep track of using [org-roam](https://www.orgroam.com). These notes are easily searchable and have saved my hide a good few times. "I feel like I've solved this problem before" - Rameez. Just search it!
 - My Digital Garden is private for now, but I have ideas to open source it.
 
-## Productiviy
+## Productivity
 
 - I try to minimise distractions by keeping a clutter free workspace.
 - I'm a huge fan of the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
@@ -52,3 +52,9 @@ I'll try keep it as up to date as I can.
 - I use a single (more than one is far too distracting) [4K monitor](https://www.dell.com/za/enterprise/p/dell-u2720q-monitor/pd) with a single USB-C thunderbolt 3 cable to minimize cable clutter.
 - I use a [Logitech M705 Marathon Mouse](https://www.logitech.com/en-za/product/marathon-mouse-m705) because I hate buying batteries.
 - I use a (CM Storm Quick Fire Rapid I)[https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid-i/] mechanical keyboard with blue keys to annoy my wife. The true beauty of a mechanical keyboard is that even if you not doing much, it sounds like you're doing a lot!
+
+# Software + Other Stuff
+
+- I use [1Password](https://1password.com) for my passwords and secure notes.
+- I use [Authy](https://authy.com/) for 2FA.
+- I use my own VPN server using [Algo](https://github.com/trailofbits/algo) on DigitalOcean and AWS.

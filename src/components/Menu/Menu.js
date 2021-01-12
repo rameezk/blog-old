@@ -7,6 +7,7 @@ import { FaSearch } from "react-icons/fa/";
 import { FaTag } from "react-icons/fa/";
 import { FaFile } from "react-icons/fa/";
 import { FaRss } from "react-icons/fa/";
+import { FaTools } from "react-icons/fa/";
 
 import Item from "./Item";
 import Expand from "./Expand";

@@ -28,6 +28,7 @@ class Menu extends React.Component {
       { to: "/rss.xml", label: "Subscribe", icon: FaRss },
       { to: "/category/", label: "Categories", icon: FaTag },
       { to: "/search/", label: "Search", icon: FaSearch },
+      { to: "/uses/", label: "/uses", icon: FaTools },
       { to: "/resume/", label: "Resume", icon: FaFile }
     ];
 

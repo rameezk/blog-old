@@ -16,3 +16,7 @@ Simple dashboard for tracking your financial health. Built in ClojureScript. See
 ## Timer
 
 Timer written in ClojureScript. Mainly to learn re-frame. See [live version](https://timer.rameezkhan.dev) or [code](https://github.com/rameezk/timer).
+
+## tmux-kubectl
+
+A plugin for tmux showing you the current context specified for k8s. Plugin is [TPM](https://github.com/tmux-plugins/tpm) friendly. [Code here](https://github.com/rameezk/tmux-kubectl).

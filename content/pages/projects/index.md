@@ -20,3 +20,6 @@ Timer written in ClojureScript. Mainly to learn re-frame. See [live version](htt
 ## tmux-kubectl
 
 A plugin for tmux showing you the current context specified for k8s. Plugin is [TPM](https://github.com/tmux-plugins/tpm) friendly. [Code here](https://github.com/rameezk/tmux-kubectl).
+
+## the-one-true-khan 
+Arguably my greatest work. There can only be one true Khan. [https://whois.theonetruekhan.com](https://whois.theonetruekhan.com)

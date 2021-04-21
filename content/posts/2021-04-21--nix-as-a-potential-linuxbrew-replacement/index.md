@@ -10,8 +10,8 @@ author: Rameez Khan
 
 ## Linuxbrew
 
-Coming from a MacBook, I become comfortable with [Homebrew](https://brew.sh/) as a package manager. 
-
+Coming from a MacBook, I became comfortable with [Homebrew](https://brew.sh/) as a package manager. 
+ 
 Over time, I built up a collection of tools in my [dotfiles](https://github.com/rameezk/dotfiles) to maximise my productivity.
 
 When moving over to Ubuntu, I realized a couple of these tools were missing from Apt. Naturally I went with something I was most

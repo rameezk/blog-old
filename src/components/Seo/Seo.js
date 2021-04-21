@@ -40,6 +40,8 @@ const Seo = props => {
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary" />
       <meta property="twitter:image" content={image} />
+      <meta property="twitter:title" content={postTitle} />
+      <meta property="twitter:site" content="@RameezKhanSA" />
       <meta
         name="twitter:creator"
         content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}

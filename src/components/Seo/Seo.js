@@ -38,7 +38,7 @@ const Seo = props => {
       <meta property="og:type" content="website" />
       <meta property="fb:app_id" content={facebook.appId} />
       {/* Twitter Card tags */}
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content={image} />
       <meta property="twitter:title" content={postTitle} />
       <meta property="twitter:site" content="@RameezKhanSA" />

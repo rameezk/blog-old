@@ -8,6 +8,9 @@ author: Rameez Khan
 
 ![Banner](emacs-native-comp-on-wsl2-with-nix-banner.png)
 
+**Update:** As of 2021-04-25 GCC/Native-Comp has been [merged into master](https://lists.gnu.org/archive/html/emacs-devel/2021-04/msg01175.html). 
+I'm sure package managers will be updated soon. 
+
 ## What is Emacs Native-Comp?
 Emacs Native-Comp refers a to the `feature/native-comp` branch of Emacs. It adds support for compiling
 EmacsLisp to native code using `libgccjit`. This provides a notable performance improvement right out

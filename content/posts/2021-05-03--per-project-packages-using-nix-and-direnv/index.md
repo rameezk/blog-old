@@ -13,7 +13,7 @@ There are a few reasons why you would want to have project specific packages.
 - Different package versions per project e.g. you are maintaining a project that uses an old version of Node.js (like this blog, I'm lazy),
 but use a newer version globally on your system.
 - You don't want to pollute your global environment with packages you'll only use in an isolated project e.g. nixfmt to format *.nix files in my [dotfiles](https://github.com/rameezk/dotfiles).
-- Easy on-boarding of a new team member e.g. packages are declared in the same project are easy to install and start contributing (more details coming below).
+- Easy on-boarding of a new team member e.g. packages are declared in the same project and it is easy to install and start contributing (more details coming below).
 
 In the [Nix](https://nixos.org/) ecosystem, this can be achieved using [nix-shell](https://nixos.org/manual/nix/unstable/command-ref/nix-shell.html).
 
@@ -78,6 +78,7 @@ Cool!
 Nix and direnv provide a very convenient method of keeping your project specific packages away from your system packages as well as providing enough
 autonomous convenience to "get out of your way". I use this methodology in a bunch of projects and it works really well.
 
-It's worth mentioning [devshell](https://github.com/numtide/devshell), a project build specifically around this type of tooling. It provides a framework like experience describing this time of set up. Worth checking out!
+It's worth mentioning [devshell](https://github.com/numtide/devshell), a project built specifically around this type of tooling. 
+It provides a framework like experience describing this type of set up. It's worth checking out.
 
 Till next time.

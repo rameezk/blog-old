@@ -79,6 +79,6 @@ Nix and direnv provide a very convenient method of keeping your project specific
 autonomous convenience to "get out of your way". I use this methodology in a bunch of projects and it works really well.
 
 It's worth mentioning [devshell](https://github.com/numtide/devshell), a project built specifically around this type of tooling. 
-It provides a framework like experience describing this type of set up. It's worth checking out.
+It provides a framework like experience describing this setup. 
 
 Till next time.

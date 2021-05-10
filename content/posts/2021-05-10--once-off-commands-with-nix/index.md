@@ -37,7 +37,7 @@ nix run nixpkgs#python -- --version
 If you want to bring multiple programs into your path in one go, I would use `nix-shell` and make it a two step process. Otherwise, `nix run` is more convenient.
 
 ## I know what binary I want to run, but don't know in which nixpkg it lives
-There is nice project by Shopify called [Comma](https://github.com/Shopify/comma), which combines the usage of `nix run` and `nix-index` very nicely. There's a quick demo on how to use this [here](https://www.youtube.com/watch?v=VUM3Km_4gUg&list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs).
+There is a nice project by Shopify called [Comma](https://github.com/Shopify/comma), which combines the usage of `nix run` and `nix-index` very nicely. There's a quick demo on how to use this [here](https://www.youtube.com/watch?v=VUM3Km_4gUg&list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs).
 
 ## Conclusion
 The Nix ecosystem provides an easy mechanism for running once-off commands without polluting your system or global environment.

@@ -23,3 +23,6 @@ A plugin for tmux showing you the current context specified for k8s. Plugin is [
 
 ## the-one-true-khan 
 Arguably my greatest work. There can only be one true Khan. [https://whois.theonetruekhan.com](https://whois.theonetruekhan.com)
+
+## recipes
+Some recipes I've collected over the years. Static Site Geneator (Markdown to HTML) in less that 100 lines of code. See [here](https://recipes.rameezkhan.dev).

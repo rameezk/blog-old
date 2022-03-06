@@ -23,7 +23,7 @@ this blog post.
 
 To install it on WSL2, first you'll need to add the Emacs Community Overlay.
 ```bash
-mkdir -p $HOME/.config/nixpkgs/overlays/emacs.nix
+mkdir -p $HOME/.config/nixpkgs/overlays
 echo "import (builtins.fetchTarball {
       url = https://github.com/nix-community/emacs-overlay/archive/master.tar.gz;
     })" >> $HOME/.config/nixpkgs/overlays/emacs.nix

@@ -26,3 +26,6 @@ Arguably my greatest work. There can only be one true Khan. [https://whois.theon
 
 ## recipes
 Some recipes I've collected over the years. Static Site Geneator (Markdown to HTML) in less that 100 lines of code. See [recipes](https://recipes.rameezkhan.dev) or [repo](https://github.com/rameezk/recipes).
+
+## Tweet Scrubber
+Delete your tweets older than X days. Dockerized, targetting the ARMv7 architecture (for Raspberry PIs). Can be run via docker-compose too. See [here](https://github.com/rameezk/tweet-scrubber).
